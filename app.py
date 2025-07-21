@@ -1,13 +1,11 @@
 #Required libraries
 import streamlit as st
 import pandas as pd
-import torch.nn as nn
 from datetime import datetime
 import os
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 import joblib
 
